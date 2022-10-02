@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.229 s <<< FAILURE! - in com.runners.TestRunner
+New User Registeration.Register with Tekschool Test Environment Website  Time elapsed: 5.616 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
+
