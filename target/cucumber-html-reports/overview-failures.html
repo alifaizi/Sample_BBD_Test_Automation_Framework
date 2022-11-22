@@ -77,7 +77,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>bddautomationframework</td>
         <td>1</td>
-      <td>02 Oct 2022, 14:55</td>
+      <td>02 Oct 2022, 18:49</td>
     </tr>
   </tbody>
 </table>
@@ -117,24 +117,24 @@ $(document).ready(function() {
 <div class="element">
     <div class="indention">
       <b>Feature:</b>
-      <a href="report-feature_163073559.html">New User Registeration</a>
+      <a href="report-feature_3866260.html">Tek School Retail Page login</a>
     </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_3314864075.html">@RegisteringNewAccount</a>
+       <a href="report-tag_743758207.html">@loginToTekRetailSite</a>
 </div>
 
 
-  <span class="lead-duration duration">0.888</span>
+  <span class="lead-duration duration">0.408</span>
 
 
   <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
 
 <div class="brief failed">
   <span class="keyword indention">Scenario</span>
-  <span class="name">Register with Tekschool Test Environment Website</span>
+  <span class="name">Validate user is able to login to tek school retail website successfully</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -165,7 +165,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.steps.definition.Hooks.start()</span>
 
-  <span class="lead-duration duration">3.428</span>
+  <span class="lead-duration duration">3.326</span>
 
           </div>
 
@@ -200,36 +200,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
-  <span class="name">I am on Test Environment Home Page</span>
+  <span class="name">User is on Retail website</span>
 
-  <span class="lead-duration duration">0.086</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-When passed">
-  <span class="keyword indention">When</span>
-  <span class="name">I click on My Account button</span>
-
-  <span class="lead-duration duration">0.083</span>
+  <span class="lead-duration duration">0.035</span>
 
 </div>
 
@@ -254,9 +227,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">I click on register link</span>
+  <span class="name">User click on My Account</span>
 
-  <span class="lead-duration duration">0.708</span>
+  <span class="lead-duration duration">0.092</span>
 
 </div>
 
@@ -279,11 +252,38 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And failed">
-  <span class="keyword indention">And</span>
-  <span class="name">I fill the registration form</span>
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">User click on Login</span>
 
-  <span class="lead-duration duration">0.010</span>
+  <span class="lead-duration duration">0.272</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When failed">
+  <span class="keyword indention">When</span>
+  <span class="name">user enters username</span>
+
+  <span class="lead-duration duration">0.009</span>
 
 </div>
 
@@ -304,8 +304,8 @@ $(document).ready(function() {
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
 	at com.utilities.ExcelUtillityTekRetailUserRegistration.setExcelFile(ExcelUtillityTekRetailUserRegistration.java:34)
-	at com.steps.definition.NewUserRegistrationStepDefinition.i_fill_the_registration_form(NewUserRegistrationStepDefinition.java:28)
-	at &#10045;.I fill the registration form(file:///C:/Users/janal/OneDrive/Desktop/TEK%20School/Projects/MyProjects/bddautomationframework/src/test/resources/features/NewUserRegistration.feature:8)
+	at com.steps.definition.LoginToTeSchoolRetailPageSteps.user_enters_username(LoginToTeSchoolRetailPageSteps.java:35)
+	at &#10045;.user enters username(file:///C:/Users/janal/OneDrive/Desktop/TEK%20School/Projects/MyProjects/bddautomationframework/src/test/resources/features/loginToTekRetail.feature:8)
 Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
@@ -316,7 +316,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
 	at com.utilities.ExcelUtillityTekRetailUserRegistration.setExcelFile(ExcelUtillityTekRetailUserRegistration.java:34)
-	at com.steps.definition.NewUserRegistrationStepDefinition.i_fill_the_registration_form(NewUserRegistrationStepDefinition.java:28)
+	at com.steps.definition.LoginToTeSchoolRetailPageSteps.user_enters_username(LoginToTeSchoolRetailPageSteps.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -382,7 +382,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 
 <div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
-  <span class="name">I subscribe to newsletter</span>
+  <span class="name">user enters password</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -409,36 +409,9 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 
 <div class="brief step-name-And skipped">
   <span class="keyword indention">And</span>
-  <span class="name">I agree to privacy policy</span>
+  <span class="name">user clicks on login button</span>
 
   <span class="lead-duration duration">0.000</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">I click on continue button</span>
-
-  <span class="lead-duration duration">0.001</span>
 
 </div>
 
@@ -463,7 +436,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 
 <div class="brief step-name-Then skipped">
   <span class="keyword indention">Then</span>
-  <span class="name">I validate my account is created successfully</span>
+  <span class="name">user logged into the tek school retail account successfully</span>
 
   <span class="lead-duration duration">0.000</span>
 
@@ -510,7 +483,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
             <span class="keyword indention">After</span>
               <span class="location name">com.steps.definition.Hooks.end(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.141</span>
+  <span class="lead-duration duration">1.179</span>
 
           </div>
 
@@ -522,14 +495,14 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
   <div class="embeddings inner-level">
   <div class="embedding indention">
     <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
-      <a>Register with Tekschool Test Environment Website</a>
-      <a href="embeddings/embedding_818658872.png" download target="_blank">
+      <a>Validate user is able to login to tek school retail website successfully</a>
+      <a href="embeddings/embedding_-787476475.png" download target="_blank">
         <span class="download-button glyphicon glyphicon-download-alt"></span>
       </a>
     </div>
     <div id="embedding-6" class="collapse collapsable-details ">
       <div class="embedding-content">
-        <img src="embeddings/embedding_818658872.png">
+        <img src="embeddings/embedding_-787476475.png">
       </div>
     </div>
   </div>

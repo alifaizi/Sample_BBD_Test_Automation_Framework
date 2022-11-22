@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.runners.TestRunner" time="6.229" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.runners.TestRunner" time="5.732" tests="1" errors="1" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\janal\AppData\Local\Temp\surefire5992717810668007546\surefirebooter4215809033067587664.jar C:\Users\janal\AppData\Local\Temp\surefire5992717810668007546 2022-10-02T14-55-16_459-jvmRun1 surefire6488282211036441373tmp surefire_08368118597658218244tmp"/>
+    <property name="sun.java.command" value="C:\Users\janal\AppData\Local\Temp\surefire6142724776359006708\surefirebooter3189388896890249585.jar C:\Users\janal\AppData\Local\Temp\surefire6142724776359006708 2022-10-02T18-49-05_885-jvmRun1 surefire7620909286892880090tmp surefire_04086280057521060881tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\target\test-classes;C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\target\classes;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\janal\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\janal\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\janal\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\janal\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\janal\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\janal\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\janal\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\janal\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\janal\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\janal\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\janal\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\janal\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\janal\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\janal\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\janal\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\janal\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\janal\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\janal\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\janal\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\janal\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-java\6.9.1\cucumber-java-6.9.1.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-core\6.9.1\cucumber-core-6.9.1.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-gherkin\6.9.1\cucumber-gherkin-6.9.1.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.9.1\cucumber-gherkin-messages-6.9.1.jar;C:\Users\janal\.m2\repository\io\cucumber\messages\13.2.1\messages-13.2.1.jar;C:\Users\janal\.m2\repository\io\cucumber\tag-expressions\3.0.0\tag-expressions-3.0.0.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\janal\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-plugin\6.9.1\cucumber-plugin-6.9.1.jar;C:\Users\janal\.m2\repository\io\cucumber\docstring\6.9.1\docstring-6.9.1.jar;C:\Users\janal\.m2\repository\io\cucumber\html-formatter\9.0.0\html-formatter-9.0.0.jar;C:\Users\janal\.m2\repository\io\cucumber\create-meta\2.0.4\create-meta-2.0.4.jar;C:\Users\janal\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\janal\.m2\repository\io\cucumber\cucumber-junit\6.9.1\cucumber-junit-6.9.1.jar;C:\Users\janal\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\janal\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\janal\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\janal\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\janal\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\janal\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\janal"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\janal\AppData\Local\Temp\surefire5992717810668007546\surefirebooter4215809033067587664.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\janal\AppData\Local\Temp\surefire6142724776359006708\surefirebooter3189388896890249585.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_311\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_311\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_311\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,25 +60,25 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Register with Tekschool Test Environment Website" classname="New User Registeration" time="5.616">
+  <testcase name="Validate user is able to login to tek school retail website successfully" classname="Tek School Retail Page login" time="5.079">
     <error message="org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream" type="java.lang.NoClassDefFoundError"><![CDATA[java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
 Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
 ]]></error>
     <system-out><![CDATA[
-@RegisteringNewAccount
-Scenario: Register with Tekschool Test Environment Website # src/test/resources/features/NewUserRegistration.feature:4
-  Given I am on Test Environment Home Page                 # com.steps.definition.NewUserRegistrationStepDefinition.i_am_on_test_environment_home_page()
-  When I click on My Account button                        # com.steps.definition.NewUserRegistrationStepDefinition.i_click_on_my_account_button()
-  And I click on register link                             # com.steps.definition.NewUserRegistrationStepDefinition.i_click_on_register_link()
-  And I fill the registration form                         # com.steps.definition.NewUserRegistrationStepDefinition.i_fill_the_registration_form()
+@loginToTekRetailSite
+Scenario: Validate user is able to login to tek school retail website successfully # src/test/resources/features/loginToTekRetail.feature:4
+  Given User is on Retail website                                                  # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_is_on_retail_website()
+  And User click on My Account                                                     # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_click_on_my_account()
+  When User click on Login                                                         # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_click_on_login()
+  When user enters username                                                        # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_enters_username()
       java.lang.NoClassDefFoundError: org/apache/commons/io/output/UnsynchronizedByteArrayOutputStream
 	at org.apache.poi.poifs.filesystem.FileMagic.valueOf(FileMagic.java:177)
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:309)
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
 	at com.utilities.ExcelUtillityTekRetailUserRegistration.setExcelFile(ExcelUtillityTekRetailUserRegistration.java:34)
-	at com.steps.definition.NewUserRegistrationStepDefinition.i_fill_the_registration_form(NewUserRegistrationStepDefinition.java:28)
-	at âœ½.I fill the registration form(file:///C:/Users/janal/OneDrive/Desktop/TEK%20School/Projects/MyProjects/bddautomationframework/src/test/resources/features/NewUserRegistration.feature:8)
+	at com.steps.definition.LoginToTeSchoolRetailPageSteps.user_enters_username(LoginToTeSchoolRetailPageSteps.java:35)
+	at âœ½.user enters username(file:///C:/Users/janal/OneDrive/Desktop/TEK%20School/Projects/MyProjects/bddautomationframework/src/test/resources/features/loginToTekRetail.feature:8)
 Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.UnsynchronizedByteArrayOutputStream
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
@@ -89,7 +89,7 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:277)
 	at org.apache.poi.ss.usermodel.WorkbookFactory.create(WorkbookFactory.java:255)
 	at com.utilities.ExcelUtillityTekRetailUserRegistration.setExcelFile(ExcelUtillityTekRetailUserRegistration.java:34)
-	at com.steps.definition.NewUserRegistrationStepDefinition.i_fill_the_registration_form(NewUserRegistrationStepDefinition.java:28)
+	at com.steps.definition.LoginToTeSchoolRetailPageSteps.user_enters_username(LoginToTeSchoolRetailPageSteps.java:35)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,19 +135,18 @@ Caused by: java.lang.ClassNotFoundException: org.apache.commons.io.output.Unsync
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
 
-  And I subscribe to newsletter                            # com.steps.definition.NewUserRegistrationStepDefinition.i_subscribe_to_newsletter()
-  And I agree to privacy policy                            # com.steps.definition.NewUserRegistrationStepDefinition.i_agree_to_privacy_policy()
-  And I click on continue button                           # com.steps.definition.NewUserRegistrationStepDefinition.i_click_on_continue_button()
-  Then I validate my account is created successfully       # com.steps.definition.NewUserRegistrationStepDefinition.i_validate_my_account_is_created_successfully()
+  And user enters password                                                         # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_enters_password()
+  And user clicks on login button                                                  # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_clicks_on_login_button()
+  Then user logged into the tek school retail account successfully                 # com.steps.definition.LoginToTeSchoolRetailPageSteps.user_logged_into_the_tek_school_retail_account_successfully()
 
-    Embedding Register with Tekschool Test Environment Website [image/png 106805 bytes]
+    Embedding Validate user is able to login to tek school retail website successfully [image/png 112567 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 43692
+    <system-err><![CDATA[Starting ChromeDriver 105.0.5195.52 (412c95e518836d8a7d97250d62b29c2ae6a26a85-refs/branch-heads/5195@{#853}) on port 28985
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 02, 2022 2:55:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Oct 02, 2022 6:49:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
   </testcase>

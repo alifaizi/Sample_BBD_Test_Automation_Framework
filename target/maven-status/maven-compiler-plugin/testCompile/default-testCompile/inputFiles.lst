@@ -9,6 +9,8 @@ C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationfram
 C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\utilities\ExcelUtillityTekRetailUserRegistration.java
 C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\runners\TestRunner.java
 C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\steps\definition\LoginSteps.java
+C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\steps\definition\LoginToTeSchoolRetailPageSteps.java
 C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\page\objects\MainPageObject.java
 C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\page\objects\NewUserRegistrationPageObj.java
 C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\utilities\ConfigsReader.java
+C:\Users\janal\OneDrive\Desktop\TEK School\Projects\MyProjects\bddautomationframework\src\test\java\com\page\objects\LoginToTeSchoolRetailPageObject.java

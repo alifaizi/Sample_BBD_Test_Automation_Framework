@@ -26,12 +26,12 @@ public class NewUserRegistrationStepDefinition extends CommonUtils {
     	ExcelUtillityTekRetailUserRegistration excel = new ExcelUtillityTekRetailUserRegistration();
     	try {
 			excel.setExcelFile(".\\src\\test\\resources\\testdata\\TestDataForApachePoi.xlsx", "Sheet1");
-			sendText(newuserregistration.firstNameFieldEntry, excel.getCellData("first_name", 2));
-			sendText(newuserregistration.lastNameFieldEntry, excel.getCellData("last_name", 2));
-			sendText(newuserregistration.emailEntryField, excel.getCellData("email", 2));
-			sendText(newuserregistration.telephoneEntryField, excel.getCellData("telephone", 2));
-			sendText(newuserregistration.passwordEntryField, excel.getCellData("password", 2));
-			sendText(newuserregistration.confirmPasswordEntryField, excel.getCellData("confirm_password", 2));
+			sendText(newuserregistration.firstNameFieldEntry, excel.getCellData("first_name", 3));
+			sendText(newuserregistration.lastNameFieldEntry, excel.getCellData("last_name", 3));
+			sendText(newuserregistration.emailEntryField, excel.getCellData("email", 3));
+			sendText(newuserregistration.telephoneEntryField, excel.getCellData("telephone", 3));
+			sendText(newuserregistration.passwordEntryField, excel.getCellData("password", 3));
+			sendText(newuserregistration.confirmPasswordEntryField, excel.getCellData("confirm_password", 3));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
