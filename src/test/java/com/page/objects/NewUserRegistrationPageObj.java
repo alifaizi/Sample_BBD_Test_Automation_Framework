@@ -2,13 +2,14 @@ package com.page.objects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+//Created by Ali Faizi for demonstration and learning purposes only. 
 import org.openqa.selenium.support.PageFactory;
 
 import com.base.Base;
 
 
 public class NewUserRegistrationPageObj extends Base{
-	// This is just to create new account to be used to run in each time we run the Capstone project
+	
 	public NewUserRegistrationPageObj(){
 		PageFactory.initElements(driver, this);
 	}

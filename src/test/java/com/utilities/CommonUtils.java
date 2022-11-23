@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
-
+//Created by Ali Faizi for demonstration and learning purposes only. 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;
@@ -23,9 +23,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method clears the text box and sends another text
-	 * 
-	 * @param element
-	 * @param text
 	 */
 
 	public static void sendText(WebElement element, String text) {
@@ -36,11 +33,7 @@ public class CommonUtils extends PageInitializer {
 	}
 
 	/**
-	 * This method checks if radio/check box is enabled and then clicks on the
-	 * element that has the value we want
-	 * 
-	 * @param listElement
-	 * @param value
+	 * This method checks if radio/check box is enabled and then clicks on the element that has the value we want
 	 */
 
 	public static void ClickRadioOrCheckBox(List<WebElement> listElement, String value) {
@@ -57,11 +50,7 @@ public class CommonUtils extends PageInitializer {
 	}
 
 	/**
-	 * This method checks if the text is found in the dropdown element and only then
-	 * it selects it
-	 * 
-	 * @param element
-	 * @param textToSelect
+	 * This method checks if the text is found in the drop down element and only then it selects it
 	 */
 
 	public static void selectDropdown(WebElement element, String textToSelect) {
@@ -82,10 +71,6 @@ public class CommonUtils extends PageInitializer {
 
 	/*
 	 * This method checks if the text of the index is valid and only then selects it
-	 * 
-	 * @param element
-	 * 
-	 * @param index
 	 */
 
 	public static void selectDropdown(WebElement element, int index) {
@@ -133,8 +118,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method get alert text after checking if alert is present
-	 * 
-	 * @return
 	 */
 
 	public static String getAlertText(String alertText) {
@@ -149,9 +132,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method send text to alert. NoAlertPresentException is handled
-	 * 
-	 * @param text
-	 * 
 	 */
 
 	public static void sendTextToAlert(String text) {
@@ -166,8 +146,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method switches to a frame by using name or id
-	 * 
-	 * @param nameOrID
 	 */
 
 	public static void switchToFrame(String nameOrId) {
@@ -182,8 +160,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method switches to a frame by using index
-	 * 
-	 * @param index
 	 */
 
 	public static void switchToFrame(int index) {
@@ -197,8 +173,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method switches to a frame by using a WebElement
-	 * 
-	 * @param element
 	 */
 
 	public static void switchToFrame(WebElement element) {
@@ -227,8 +201,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method creates a WebDriverWait object and return it
-	 * 
-	 * @param return
 	 */
 
 	public static WebDriverWait getWaitObject() {
@@ -241,9 +213,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method waits for an element to be click able
-	 * 
-	 * @param element
-	 * @return
 	 */
 
 	public static WebElement waitUntiElementClickable(WebElement element) {
@@ -254,9 +223,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method waits for an element to be visible
-	 * 
-	 * @param element
-	 * @return
 	 */
 
 	public static WebElement waitUntilElementVisible(WebElement element) {
@@ -265,9 +231,7 @@ public class CommonUtils extends PageInitializer {
 	}
 
 	/**
-	 * This method click on an element and has wait inplemented on it
-	 * 
-	 * @param element
+	 * This method click on an element and has wait implemented on it
 	 */
 
 	public static void clickAndWait(WebElement element) {
@@ -285,8 +249,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method casts the driver to a JavaScriptExecutor and return it
-	 * 
-	 * @param return
 	 */
 
 	public static JavascriptExecutor getJSObject() {
@@ -299,8 +261,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method will click on the element passed to it using JavascriptExecutor
-	 * 
-	 * @param element
 	 */
 
 	public static void jseClick(WebElement element) {
@@ -309,10 +269,7 @@ public class CommonUtils extends PageInitializer {
 	}
 
 	/**
-	 * This method will scroll down the page until the element passed to it becomes
-	 * visible
-	 * 
-	 * @param element
+	 * This method will scroll down the page until the element passed to it becomes visible
 	 */
 
 	public static void scrollToElement(WebElement element) {
@@ -323,8 +280,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method will scroll DOWN the page based on the passed pixel parameter
-	 * 
-	 * @param pixel
 	 */
 
 	public static void scrollDown(int pixel) {
@@ -335,8 +290,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method will scroll UP the page based on the passed pixel parameter
-	 * 
-	 * @param pixel
 	 */
 
 	public static void scrollUp(int pixel) {
@@ -346,9 +299,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method will select a date from the calendar
-	 * 
-	 * @param elements
-	 * @param text
 	 */
 
 	public static void selectCalendarDate(List<WebElement> elements, String text) {
@@ -381,8 +331,6 @@ public class CommonUtils extends PageInitializer {
 
 	/**
 	 * This method returns the current time stamp in a string
-	 * 
-	 * @param
 	 */
 
 	public static String getTimeStamp() {

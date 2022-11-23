@@ -1,7 +1,7 @@
 package com.runners;
 
 import org.junit.runner.RunWith;
-
+//Created by Ali Faizi for demonstration and learning purposes only. 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
@@ -15,8 +15,9 @@ import io.cucumber.junit.CucumberOptions;
 		glue = "com.steps.definition", 
 		
 		// Tag is similar to groups in TestNG. We can run specific scenario with adding tag
-		tags = "@loginToTekRetailSite", 
 		
+		tags = "@loginToTekRetailSite",
+
 		// If true, it will not run the steps, It just check if every step in the feature file is defined 
 		dryRun = false, 
 		
