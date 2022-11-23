@@ -6,7 +6,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
-//Created by Ali Faizi for demonstration and learning purposes only. 
+//Created by Jan Ali Faizi for demonstration and learning purposes only. 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.JavascriptExecutor;

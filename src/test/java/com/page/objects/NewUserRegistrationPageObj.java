@@ -2,7 +2,7 @@ package com.page.objects;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-//Created by Ali Faizi for demonstration and learning purposes only. 
+//Created by Jan Ali Faizi for demonstration and learning purposes only. 
 import org.openqa.selenium.support.PageFactory;
 
 import com.base.Base;

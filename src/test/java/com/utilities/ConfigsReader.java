@@ -2,7 +2,7 @@ package com.utilities;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-//Created by Ali Faizi for demonstration and learning purposes only. 
+//Created by Jan Ali Faizi for demonstration and learning purposes only. 
 import java.io.IOException;
 import java.util.Properties;
 

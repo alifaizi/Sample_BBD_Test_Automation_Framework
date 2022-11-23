@@ -1,7 +1,7 @@
 package com.base;
 
 import com.page.objects.LoginToTeSchoolRetailPageObject;
-//Created by Ali Faizi for demonstration and learning purposes only. 
+//Created by Jan Ali Faizi for demonstration and learning purposes only. 
 import com.page.objects.NewUserRegistrationPageObj;
 
 public class PageInitializer extends Base{

@@ -1,3 +1,4 @@
+#Created by Jan Ali Faizi for demonstration and learning purposes only.
 @loginToTekRetailSite
 Feature: Tek School Retail Page login
 

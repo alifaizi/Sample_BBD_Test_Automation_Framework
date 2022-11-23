@@ -3,7 +3,7 @@ package com.page.objects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-//Created by Ali Faizi for demonstration and learning purposes only. 
+//Created by Jan Ali Faizi for demonstration and learning purposes only. 
 import com.base.Base;
 
 public class LoginToTeSchoolRetailPageObject extends Base {

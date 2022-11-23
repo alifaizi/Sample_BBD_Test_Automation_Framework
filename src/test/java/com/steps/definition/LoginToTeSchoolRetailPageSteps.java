@@ -4,7 +4,7 @@ import org.junit.Assert;
 
 import com.utilities.CommonUtils;
 import com.utilities.ExcelUtillityTekRetailUserRegistration;
-//Created by Ali Faizi for demonstration and learning purposes only. 
+//Created by Jan Ali Faizi for demonstration and learning purposes only. 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

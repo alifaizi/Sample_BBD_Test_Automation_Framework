@@ -1,4 +1,5 @@
- @RegisteringNewAccount
+#Created by Jan Ali Faizi for demonstration and learning purposes only.
+@RegisteringNewAccount
 Feature: New User Registeration
  
   Scenario: Register with Tekschool Test Environment Website
