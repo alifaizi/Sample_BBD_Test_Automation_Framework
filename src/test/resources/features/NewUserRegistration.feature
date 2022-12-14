@@ -1,5 +1,5 @@
 #Created by Jan Ali Faizi for demonstration and learning purposes only.
-@RegisteringNewAccount
+@RegisteringNewAccount @Smoke
 Feature: New User Registeration
  
   Scenario: Register with Tekschool Test Environment Website
